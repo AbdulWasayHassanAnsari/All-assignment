@@ -1,0 +1,2 @@
+# All-assignment
+my assignment
