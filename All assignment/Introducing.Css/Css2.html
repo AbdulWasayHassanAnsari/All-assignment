@@ -1,0 +1,88 @@
+<!Doctype html>
+
+<html lang="en">
+
+<head>
+
+    <title>
+        Assigment
+    </title>
+</head>
+<style>
+
+    h1 {
+        background-color: greenyellow;
+        color: white;
+    }
+
+    div.box{
+        background-color: gray;
+        width: 700px;
+    }
+
+    input#w1{
+        background-color: greenyellow;
+        color: white;
+    }
+    
+    input#z1{
+        background-color: greenyellow;
+        color: white;
+    }
+
+
+</style>
+<body>
+    <div class="box">
+    <h1>User Registration Form</h1>
+
+    <form>
+        <p>Username:<input type="text" name="Username" size="15" maxlength="30">
+        </p>
+        <p>Password:<input type="password" name="Password" size="15" maxlength="30">
+        </p>
+        <p>Date of Birth:
+            <input type="Date of Birth" name="Date of Birth" size="15" maxlength="30">
+        </p>
+        <p>Web Url:
+            <input type="Web Url" name="Web Url" size="15" maxlength="30">
+        </p>
+        <p>Address:
+            <input type="Address" name="Address" size="15" maxlength="30">
+        </p>
+        <p>City:
+            <Select name="City">
+                <option value="Karachi">Karachi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Peshawar">Peshawar</option>
+            </Select>
+        </p>
+        <p>State:
+            <input type="State" name="State" size="15" maxlength="30">
+        </p>
+        <p>Zip:
+            <input type="=Zip" name="Zip" size="15" maxlength="30">
+        </p>
+        <p>Magazine:
+            <Select size="4" multiple="multiple">
+                <option value="NewsWeek">NewsWeek</option>
+                <option value="Time">Time</option>
+                <option value="Fortune">Fortune</option>
+                <option value="Tv Guide">Tv Guide</option>
+            </Select>
+        </p>
+        <p>
+            Additional Comments:<br/>
+            <textarea name="Additional Comments" cols="70" rows="10"></textarea>
+        </p>
+        <p>Uplord Your Profile Picture:
+            <input type="file" name="Choose file"><br/>
+            <input id="z1" type="submit" value="Upload">
+        </p>
+        <input id="w1" type="button" value="Send Your Order">
+        
+    </form>
+    </div>
+</body>
+</html>
